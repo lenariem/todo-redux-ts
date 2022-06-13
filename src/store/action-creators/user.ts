@@ -19,7 +19,7 @@ export const fetchUsers = () => {
         } catch (e) {
             dispatch({
                 type: UserActionTypes.FETCH_USERS_ERROR,
-                payload: "Error",
+                payload: "Error during loading list of users",
             });
         }
     };
